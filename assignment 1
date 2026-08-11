@@ -1,0 +1,53 @@
+# Classeight
+
+# question 1 print
+name = "hasnain"
+print(name)
+favouritesubject = "math"
+print(favouritesubject)
+print("python ham isiliya seekh rha ha ku ka ya aik basic language ha computer ki or aj kal bhot populer ha ai ki duniya ma")
+
+"""
+is 2 questiom ma ham na har variable ka uper
+aik aik comment likha ha jisa aik single line
+commemt khta ha aur unka bi uper ham na aik
+multiline comment likha ha """
+
+
+# question 2 comment
+# 1 variable = name 
+name = "Sara" 
+# 2 variable = age
+age = 19 
+# one print varible
+print(name) 
+# secon variable
+print(age) 
+
+# question 3 
+name = "ali"
+age = 20
+height = 5.6
+city = "karachi" 
+student = False
+print(type(name))
+print(type(age))
+print(type(height))
+print(type(city))
+print(type(student))
+
+# question 4
+num1 = "50" 
+num2 = 20 
+total = int (num1) + num2   
+print("Total is (num1+num2):", total)
+
+a = "15"
+b = 10
+total = int (a) + b
+print("a+b",total)
+
+#  question 5
+name = input("enter you nmae")
+age = int ("input(enter your age)")
+print ("input(name,age+1)")
