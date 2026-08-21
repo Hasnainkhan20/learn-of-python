@@ -36,8 +36,8 @@
 # value = ("Pakistan","karachi",)
 
 # unpack tuple
-num = ("john",30,"engineer")
-name,age,job = num 
-print(name)
-print(age)
-print(job)
+# num = ("john",30,"engineer")
+# name,age,job = num 
+# print(name)
+# print(age)
+# print(job)

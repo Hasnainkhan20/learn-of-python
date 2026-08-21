@@ -7,11 +7,11 @@ favouritesubject = "math"
 print(favouritesubject)
 print("python ham isiliya seekh rha ha ku ka ya aik basic language ha computer ki or aj kal bhot populer ha ai ki duniya ma")
 
-"""
-is 2 questiom ma ham na har variable ka uper
-aik aik comment likha ha jisa aik single line
-commemt khta ha aur unka bi uper ham na aik
-multiline comment likha ha """
+# """
+# is 2 questiom ma ham na har variable ka uper
+# aik aik comment likha ha jisa aik single line
+# commemt khta ha aur unka bi uper ham na aik
+# multiline comment likha ha """
 
 
 # question 2 comment

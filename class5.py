@@ -1,6 +1,6 @@
 # # arithmetic operators
-a=5
-b=10
+# a=5
+# b=10
 # # addition
 # # print (a+b)
 # # # subtraction 
@@ -16,11 +16,11 @@ b=10
 
 
 # # compaision operator
-result3= a!=b
-result4= a==b
-result5= a<b
-result6= a>b
-print(result3,result4,result5,result6)
-# result1= a<= b
-# result2 =a>= b
-# print(result1,result2)
+# result3= a!=b
+# result4= a==b
+# result5= a<b
+# result6= a>b
+# print(result3,result4,result5,result6)
+# # result1 = a<= b
+# # result2 = a>= b
+# # print(result1,result2)

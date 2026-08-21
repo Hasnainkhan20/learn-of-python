@@ -21,7 +21,7 @@
 # area = lenght * widht
 # print(f"Lenght: {lenght}, Width: {widht}, Area :{area}")
 
-word1 = input("enter your word1 ")
-word2 = input("enter your word2 ")
-variable = word1+word2
-print(variable)
+# word1 = input("enter your word1 ")
+# word2 = input("enter your word2 ")
+# variable = word1+word2
+# print(variable)

@@ -11,7 +11,7 @@
 # print(a % b)
 # # exponent power
 # print(a**b)
-# float division =//
+# float division = //
 # a = 5
 # b = 20 
 # print(a//b)
