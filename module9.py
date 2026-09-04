@@ -20,7 +20,7 @@
 # print(value_delet) #.pop use q6
 # students = {
 #     "student1" : {"name" : "ahsan", "age" : 19},
-#     "student2" : {"name" : "ali", "age" : 18}
+#     "student2" : {"name" : "ali", "age" : 18},
 # }
 # print(students["student1"]["name"])
 # print(students["student2"]["name"]) #nested dictionary q7
@@ -58,6 +58,60 @@
 # debug4
 # student = {} 
 # item = student.popitem()  
+# student = {"name" : "ayesha", "class" : 7} 
+# item = student.popitem() 
+# print(item)
+
+
+# debug5
+# student = {"name": "Ali", "age": 20} 
+# for k in student.values():     
+#     print(k, student[k]) 
+# student = {"name": "Ali", "age": 20} 
+# for k in student.values():    
+#      print(k, student) 
+
+
+#mini assignment
+# employee dictionary
+# employee = {"name" : "ali", "department" : "finance", "salary" : 25000}
+# print(f"employee_dictionary: {employee}")
+# bonus_value = employee.get("bonus",0)
+# print(f"bonus_value:{bonus_value}")
+# employee.update({"salary" : 30000, "experience" : "2years" })
+# print(f"dictionary after updation:{employee}")
+# for keys , values in employee.items():
+#   print(f"{keys} : {values}")
+# remove_field = employee.pop("department")
+# print(f"deleted item: {remove_field}")
+# print(f"final dictionar:{employee}")
+
+
+# miniproject
+students = {
+    "rollno1" : {"name" : "ahsan", "age" : 19, "marks": 65},
+    "rollno2" : {"name" : "ali", "age" : 18, "marks" : 70},
+    "rollno3" : {"name" : "hashir", "age" : 20, "marks" : 75},
+}
+print(students["rollno1"]["name"]["age"]["marks"])
+print(students["rollno2"]["name"]["age"]["marks"])
+print(students["rollno3"]["name"]["age"]["marks"])
+
+user_name = input("enter your name ")
+user_age = int(input("enter your age "))
+user_rollno = int(input("enter your rollnum "))
+user_marks = int(input("enter your marks "))
+
+students.update({
+    "name1" :{"name" : "user_name", "user_age" : "age2", "rollno" : "user_rollno", "marks" : "user_marks"}
+    })
+search_rollno = input("enter your search_rollno")
+if search_rollno == None:
+    print("record not found ")
+else:
+    print()
+
+
 
 
 
