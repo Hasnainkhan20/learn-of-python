@@ -3,6 +3,11 @@
 # number = int(input("apni pasand ka number do "))
 # # use if else in cheak you user number greater than 100 ,less than 100
 
+number = input("enter a number")
+if number >= 0:
+    print("positive number")
+else:
+    print("number is negative")
 # if number > 100:
 #     print(" apna jo number dia wo 100 sa bra ha ")
 # else:
@@ -33,3 +38,7 @@
 #     print("failll")
 # else:
 #     print("invalid input")
+
+
+
+

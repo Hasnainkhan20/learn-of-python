@@ -114,16 +114,6 @@ else:
 
 
 
-
-
-
-
-
-
-
-
-
-
 # books_names = {"book1" : "english", "book2" : "urdu", "book3" : "science", "book4" : "math"}
 # games_names = {"game1" : "cricket", "game2" : "football", "game3" : "hockey", "game4" : "basketball"}
 # print(games_names["game2"])
