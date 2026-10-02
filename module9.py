@@ -91,11 +91,9 @@
 students = {
     "rollno1" : {"name" : "ahsan", "age" : 19, "marks": 65},
     "rollno2" : {"name" : "ali", "age" : 18, "marks" : 70},
-    "rollno3" : {"name" : "hashir", "age" : 20, "marks" : 75},
+    "rollno3" : {"name" : "hashir", "age" : 20, "marks" : 75}
 }
-print(students["rollno1"]["name"]["age"]["marks"])
-print(students["rollno2"]["name"]["age"]["marks"])
-print(students["rollno3"]["name"]["age"]["marks"])
+print(students["rollno3"]["name"])
 
 user_name = input("enter your name ")
 user_age = int(input("enter your age "))
@@ -109,9 +107,27 @@ search_rollno = input("enter your search_rollno")
 if search_rollno == None:
     print("record not found ")
 else:
-    print()
+    print(f"{search_rollno}")
+
+updatemarks = input("enter your rollnumber to update marks")
+
+if updatemarks in students:
+    updatenumber = input("enter new number")
+    students[updatemarks].update({"Marks": updatenumber})
+    print(students[updatemarks])
+else:
+    print("roll number not found")
 
 
+# foor loop dictionary
+for keys , values in students.items():
+    print(keys, "->" , values)
+
+for keys , values in students["rollno3"].items():
+     print(keys, "->" , values)
+
+
+students.pop("rollno1")
 
 
 # books_names = {"book1" : "english", "book2" : "urdu", "book3" : "science", "book4" : "math"}
