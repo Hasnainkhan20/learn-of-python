@@ -45,3 +45,11 @@ def get_result(m1, m2, m3, percentage):
        return "pass"
     else:
         "fail"
+
+# task7
+
+def find_student(roll):
+    record = students.get(roll)
+    if record is None:
+        return "Record not found"
+    else : return (f"{record['name']} : Grade {get_grade()}") 
