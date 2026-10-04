@@ -1,9 +1,9 @@
 # coding exercise
 # q1
 # user_name = input ("enter your user_name")
-# print("user_name.upper())
-# print("user_name.lower())
-# print("user_name.title())
+# print(user_name.upper())
+# print(user_name.lower())
+# print(user_name.title())
 
 # # q2
 # text = "python"
@@ -13,18 +13,31 @@
 # a = "apple"
 # print(a.count("p"))
 
+
+# q4
+# email = input("enter your email ")
+
+# if '@' in email:
+#     print("Email sahi hai")
+# else:
+#     print("Email me @ nahi hai")    
+
+
 # q5
 # s = "My name is Hasnain" 
 # print(s.split())
 # print(" ".join(s)) 
 
+
 # q6
 # b = "  strawberry  "
 # print(b.strip())
 
+
 # q7
 # user_number = input("enter your user_number")
 # print(user_number.isdigit())
+
 
 # q8
 # name = "Ahsan" 
